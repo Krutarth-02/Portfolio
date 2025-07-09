@@ -8,16 +8,8 @@ t.from(".nm", {
 });
 t.from("li",{
     duration:0.5,
-    scale:5,
-    x:700,
+    scale:2,
+    y:-100,
     stagger:0.5,
 })
-// Initialize Lenis
-const lenis = new Lenis({
-  autoRaf: true,
-});
 
-// Listen for the scroll event and log the event data
-lenis.on('scroll', (e) => {
-  console.log(e);
-});
