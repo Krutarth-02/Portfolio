@@ -69,11 +69,13 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    padding: 150px 0px;
+    padding: 100px 0px;
 }
 
 .sub-container .body-container #head {
     color: aqua;
+    font-family: sans-serif;
+    font-size: 18px;
 }
 
 .sub-container .body-container h3 {
@@ -107,6 +109,7 @@ body {
     color: white;
     opacity: 0.6;
     font-size: 18px;
+    font-family: sans-serif;
 }
 
 
