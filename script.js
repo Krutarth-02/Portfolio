@@ -11,5 +11,10 @@ t.from("li",{
     scale:2,
     y:-100,
     stagger:0.5,
-})
-
+});
+t.from(".card", {
+    duration: 1,
+    y: 100,
+    opacity: 0,
+    stagger: 0.2
+});

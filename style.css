@@ -14,7 +14,11 @@ body {
 .main-container {
     position: relative;
 }
-
+body, html, #app {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
 .main-container .sub-container {
     width: 90%;
     margin: 0px 80px;
@@ -35,14 +39,20 @@ body {
     z-index: 100;    
 }
 
-.main-container .navbar .list-items {
+.main-container .navbar .list-items{
     display: flex;
     align-items: center;
     gap: 45px;
     list-style: none;
     opacity: 0.6;
     font-family: sans-serif;
+    cursor: pointer;
     /* position: fixed; */
+}
+.main-container .navbar .list-items a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.6;
 }
 
 .main-container .navbar .logo h2 {
@@ -154,11 +164,12 @@ body {
 .about-us .image-container .image{
     width: 100%;
     height: 70vh;
+    background-color: #00FFFF;
 }
 .about-us .image-container img {
-    width: 90%;
-    height: 60vh;
-    object-fit:contain;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
 }   
 .about-us .image-container .container{
     width: 100%;
