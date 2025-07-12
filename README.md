@@ -31,9 +31,9 @@ I'm a passionate Full Stack Web Developer with experience in building web applic
 ## 📦 Installation & Setup
 
 # Clone the repository
-git clone https://github.com/yourusername/your-portfolio.git
+git clone https://github.com/krutarth-02/Portfolio.git
 
 # Navigate to the project directory
-cd your-portfolio
+cd Portfolio
 
 # Open index.html in your browser or use a local server
